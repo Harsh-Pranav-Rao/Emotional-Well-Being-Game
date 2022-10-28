@@ -1,0 +1,213 @@
+body{
+background-image: url('../../backgroundImages/Background.png');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.menu-bar {
+  width: 1440px;
+  height: 71px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 0 10px 10px rgba(0,0,0,.35);
+}
+
+
+.Name_of_Game_contianer {
+  position: absolute;
+  width: 440px;
+  height: 40px;
+  margin-left: 495px;
+  top: 13px;
+}
+
+.Name_of_Game {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.Life_and_living_logo_container {
+  position: absolute;
+  width: 220px;
+  height: 55px;
+  margin-top: 10px;
+  margin-left: 1210px;
+}
+
+.Life_and_living_logo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+
+#Score_Text{
+  position: absolute;
+
+  color: grey;
+
+  font-size: 380%;
+  font-family: 'Monsterrat';
+  font-style: italic;
+  font-weight: 1000;
+
+  width: 100px;
+  height: 100px;
+
+  margin-left: 760px;
+  margin-top: 200px;
+
+}
+
+.Score_Fraction{
+  position: absolute;
+
+  color: grey;
+
+  font-size: 380%;
+  font-family: 'Monsterrat';
+  font-style: italic;
+  font-weight: 1000;
+
+  width: 100px;
+  height: 100px;
+
+  margin-left: 790px;
+  margin-top: 200px;
+
+}
+
+.Score_Label_container{
+  position: absolute;
+
+  width: 500px;
+  height: 110px;
+
+  margin-top: 180px;
+  margin-left: 450px;
+}
+
+.Score_Label{
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+}
+
+.Well_done_text{
+  position: absolute;
+
+  font-family: 'Patrick Hand', cursive;
+  font-size: 350%;
+
+  color: #616161;
+
+  width: 300px;
+  height: 50px;
+
+  margin-left: 578px;
+  margin-top: 430px;
+}
+
+.Play_Again_button_container{
+  position: absolute;
+
+  width: 600px;
+  height: 200px;
+
+  margin-left: 90px;
+  margin-top: 560px;
+
+}
+
+.Play_Again_button{
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+}
+
+.Quit_button_container{
+  position: absolute;
+
+  width: 580px;
+  height: 190px;
+
+  margin-left: 740px;
+  margin-top: 560px;
+
+}
+
+.Quit_button{
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+}
+
+.Progress_bar_container{
+  position: absolute;
+  margin-left: 465px;
+  margin-top: 350px;
+}
+
+.progress_dot_1, .progress_dot_2,.progress_dot_3,.progress_dot_4,.progress_dot_5,.progress_dot_6,.progress_dot_7,.progress_dot_8,.progress_dot_9,.progress_dot_10{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+
+}
+
+.progress_dot_1{
+  margin-left: 0px;
+
+}
+
+.progress_dot_2{
+  margin-left: 50px;
+}
+
+.progress_dot_3{
+  margin-left: 100px;
+}
+
+.progress_dot_4{
+  margin-left: 150px;
+
+}
+
+.progress_dot_5{
+  margin-left: 200px;
+
+}
+
+.progress_dot_6{
+  margin-left: 250px;
+
+}
+
+.progress_dot_7{
+  margin-left: 300px;
+
+}
+
+.progress_dot_8{
+  margin-left: 350px;
+
+
+}
+
+.progress_dot_9{
+  margin-left: 400px;
+
+
+}
+
+.progress_dot_10{
+  margin-left: 450px;
+}

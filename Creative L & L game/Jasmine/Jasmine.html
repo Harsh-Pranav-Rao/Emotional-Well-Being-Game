@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Version 0.0</title>
+  <!--bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!--CSS -->
+  <link rel="stylesheet" href="Jasmine.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+  <img class="sparkles" src="../backgroundImages/Sparkles_Correct.png" alt="">
+  <img class="Correct_label" src="../backgroundImages/Correct_label.png" alt="">
+  <img class="Not_Quite_label" src="../backgroundImages/Not_Quite_label.png" alt="">
+
+  <img class="next" src="../backgroundImages/Next_button.png" alt="">
+  <a href="Score_Jasmine/Score_Jasmine.html"><img onclick="handleFinish()" class="finish" src="../backgroundImages/Finish_button.png" alt=""></a>
+
+
+  <div class="Who_Is_text_container">
+    <img class="Who_Is_text" src="../backgroundImages/Who_is_text.png" alt="">
+  </div>
+
+
+
+  <div class="menu-bar">
+  </div>
+
+  <div class="Exit_Button_container">
+    <a href="../AgeSelectionScreen/AgeSelectionScreen.html"><img class="Exit_Button" src="../Menu_bar_images/Exit_button.png" alt=""></a>
+  </div>
+
+  <div class="Name_of_Game_contianer">
+    <img class="Name_of_Game" src="../Menu_bar_images/Emotional_Expression_Title.png" alt="">
+  </div>
+
+  <div class="Life_and_living_logo_container">
+    <img class="Life_and_living_logo" src="../logos/Life_and_living_logo.png" alt="">
+  </div>
+
+
+
+</head>
+
+<body onload="randomize()">
+  <div class="Brushstroke_container">
+    <img class="Brushstroke" src="../backgroundImages/Brushstroke.png" alt="">
+    <h1 id="emotionLabel"></h1>
+
+  </div>
+
+
+  <!-- <div id="timer"></div> -->
+
+  <h2 class="points"></h2>
+  <!-- <h2 class="scoreLabel">Score: </h2> -->
+
+  <div class="main_container">
+    <div class="container-1">
+      <div class="card-1">
+        <div class="card-1-front">
+          <img src="../backgroundImages/Back_of_card.png" alt="" style="width:100%; height:100%;">
+          <!--The width and height of the pattern card should be equal to the width of the div of front card , so you say width:100% -->
+        </div>
+
+        <div class="card-1-back">
+          <img class="image image1 button">
+          <img class="tick_icon_1" src="../backgroundImages/tick_icon.png" alt="">
+          <img class="cross_icon_1" src="../backgroundImages/cross_icon.png" alt="">
+          <!--The width and height of the image should be equal to the width and height of the div of the back card, so you say width:100% -->
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <div class="container-2">
+      <div class="card-2">
+        <div class="card-2-front">
+          <img src="../backgroundImages/Back_of_card.png" alt="" style="width:100%; height:100%;">
+          <!--The width and height of the pattern card should be equal to the width of the div of front card , so you say width:100% -->
+        </div>
+
+        <div class="card-2-back">
+          <img class="image image2 button">
+          <img class="tick_icon_2" src="../backgroundImages/tick_icon.png" alt="">
+          <img class="cross_icon_2" src="../backgroundImages/cross_icon.png" alt="">
+          <!--The width and height of the image should be equal to the width and height of the div of the back card, so you say width:100% -->
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="Progress_bar_container">
+      <img class= "Your_Progress_text"src="../backgroundImages/Your_Progress_text.png" alt="">
+      <img class="grey_progress_dot_10"src="../backgroundImages/grey_progress_dot.png" alt="">
+      <img class="grey_progress_dot_9" src="../backgroundImages/grey_progress_dot.png" alt="">
+      <img class="grey_progress_dot_8" src="../backgroundImages/grey_progress_dot.png" alt="">
+      <img class="grey_progress_dot_7" src="../backgroundImages/grey_progress_dot.png" alt="">
+      <img class="grey_progress_dot_6" src="../backgroundImages/grey_progress_dot.png" alt="">
+      <img class="grey_progress_dot_5" src="../backgroundImages/grey_progress_dot.png" alt="">
+      <img class="grey_progress_dot_4" src="../backgroundImages/grey_progress_dot.png" alt="">
+      <img class="grey_progress_dot_3" src="../backgroundImages/grey_progress_dot.png" alt="">
+      <img class="grey_progress_dot_2" src="../backgroundImages/grey_progress_dot.png" alt="">
+      <img class="grey_progress_dot_1" src="../backgroundImages/grey_progress_dot.png" alt="">
+
+    </div>
+  </div>
+
+
+
+
+  <!-- <button type="button" class="next btn btn-warning btn-lg" disabled>Next</button> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="Jasmine.js" charset="utf-8"></script>
+</body>
+
+<footer>
+
+</footer>
+
+</html>

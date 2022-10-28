@@ -1,0 +1,648 @@
+body{
+background-image: url('../backgroundImages/Background.png');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+
+.menu-bar {
+  width: 1440px;
+  height: 71px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 0 10px 10px rgba(0,0,0,.35);
+}
+
+.Exit_Button_container {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.Exit_Button {
+  width: 100%;
+  height: 100%;
+}
+
+.Name_of_Game_contianer {
+  position: absolute;
+  width: 440px;
+  height: 40px;
+  margin-left: 495px;
+  top: 13px;
+}
+
+.Name_of_Game {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.Life_and_living_logo_container {
+  position: absolute;
+  width: 220px;
+  height: 55px;
+  margin-top: 10px;
+  margin-left: 1210px;
+}
+
+.Life_and_living_logo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.Who_Is_text_container {
+  position: absolute;
+  width: 360px;
+  height: 35px;
+  margin-top: 100px;
+  margin-left: 520px;
+}
+
+.Who_Is_text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.Brushstroke_container {
+  position: absolute;
+  width: 460px;
+  height: 175px;
+  margin-top: 120px;
+  margin-left: 467px;
+}
+
+.Brushstroke {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#emotionLabel {
+  font-family: 'Patrick Hand';
+  font-size: 60px;
+  color: brown;
+  position:absolute;
+  margin-left: 170px;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+.emotionTitleSection {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 600px;
+}
+
+.background-image-container {
+  width: 90px;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.main_container {
+  margin-left: 315px;
+}
+
+.container-1 {
+  display: inline-block;
+  margin: auto;
+  position: absolute;
+  width: 270px;
+  height: 330px;
+  margin-right: 150px;
+  margin-top: 360px;
+}
+
+.card-1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.6s ease;
+}
+
+.card-1-front {
+  /* 1:1.35 */
+  position: absolute;
+  width: 350px;
+  height: 445px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-1-back {
+  position: absolute;
+  width: 350px;
+  height: 445px;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+.flip-card {
+  transform: rotateY(180deg);
+}
+
+.container-2 {
+  display: inline-block;
+  margin: auto;
+  position: absolute;
+  width: 350px;
+  height: 445px;
+  margin-left: 500px;
+  margin-top: 360px;
+}
+
+.card-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.6s ease;
+}
+
+.card-2-front {
+  position: absolute;
+  width: 350px;
+  height: 445px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-2-back {
+  position: absolute;
+  width: 350px;
+  height: 445px;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+.image {
+  background-color: transparent;
+  cursor: pointer;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  transition: width 0.3s;
+  /*(This transition is for enlarging and minimizing the image upon hover this has been commented to test the transition of the card flip of the image.)*/
+  transition: height 0.3s;
+}
+
+.rotateAnimation {
+  animation: images 0.3s infinite;
+}
+
+
+
+/* .pressed {
+  box-shadow: 0 0 23px white;
+  background-color: grey;
+} */
+
+.sparkles{
+  position: absolute;
+
+  width: 900px;
+  height: 750px;
+
+  margin-left: 260px;
+  margin-top: 70px;
+}
+
+.Correct_label{
+  position: absolute;
+  margin-top:700px;
+  margin-left: 475px;
+
+  width: 470px;
+  height: 130px;
+}
+
+.Not_Quite_label{
+  position: absolute;
+  margin-top:700px;
+  margin-left: 475px;
+
+  width: 470px;
+  height: 130px;
+}
+
+.tick_icon_1{
+  position: absolute;
+
+  width: 60px;
+  height: 60px;
+
+  margin-left: -325px;
+  margin-top: 15px;
+
+  /* margin-left: -325px;
+  margin-top: 15px; */
+}
+
+.cross_icon_1{
+  position: absolute;
+
+  width: 60px;
+  height: 60px;
+
+  /* margin-left: -40px;
+  margin-top: -140px; */
+
+  margin-left: -325px;
+  margin-top: 15px;
+}
+
+.tick_icon_2{
+  position: absolute;
+
+  width: 60px;
+  height: 60px;
+
+  margin-left: -325px;
+  margin-top: 15px;
+
+  /* margin-left: -325px;
+  margin-top: 15px; */
+}
+
+.cross_icon_2{
+  position: absolute;
+
+  width: 60px;
+  height: 60px;
+
+  /* margin-left: -620px;
+  margin-top: -140px; */
+
+  margin-left: -320px;
+  margin-top: 20px;
+}
+
+.cross_icon_1_moving{
+  transition: transform 2s;
+
+  transform: translate(285px,-150px);
+}
+
+
+.cross_icon_2_moving{
+  transition: transform 2s;
+
+  transform: translate(-290px,-150px);
+}
+
+.cross_icons_returning_back_to_original_place{
+  transition: transform 2s;
+
+  transform: translate(0px,0px);
+}
+
+
+.image_returning_back_to_original_place{
+  transition: width 2s, height 2s, transform 2s;
+
+  transform: scale(1) translate(0px,0px);
+}
+
+
+
+.new_place_of_emotion_label_when_correct_or_wrong{
+  margin-top: 50px;
+}
+
+
+.correct_1{
+  transition: transform 2s, width 2s, height 2s;
+
+  transform: scale(1.15) rotate(360deg) translate(268px,-110px);
+
+}
+
+.correct_2{
+  transition: transform 2s, width 2s, height 2s;
+
+  transform: scale(1.15) rotate(-360deg) translate(-235px,-110px) ;
+
+}
+
+
+
+.wrong_1 {
+  transition: width 2s, height 2s;
+
+  transform: scale(1.15) translate(268px,-110px);
+}
+
+.wrong_2 {
+  transition: width 2s, height 2s;
+
+  transform: scale(1.15) translate(-235px,-110px);
+}
+
+
+
+.image_disabled {
+  animation: fadeOutAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+}
+
+.fade_in_animation {
+  animation: fadeInAnimation ease 1s;
+}
+
+.actual_correct_image {
+  animation: actual_correct_image_bouncing 1.3s ease-in-out infinite;
+}
+
+@keyframes actual_correct_image_bouncing {
+  50%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-30px);
+  }
+}
+
+@keyframes fadeOutAnimation {
+  0%{
+    opacity: 1;
+  }
+
+  100%{
+    opacity: 0;
+  }
+
+}
+
+@keyframes fadeInAnimation {
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+
+}
+
+@keyframes images {
+  10% {
+    transform: rotate(1.25deg);
+  }
+
+  20% {
+    transform: rotate(2.5deg);
+  }
+
+  30% {
+    transform: rotate(1.25deg);
+  }
+
+  40% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-1.25deg);
+  }
+
+  60% {
+    transform: rotate(-2.5deg);
+  }
+
+  70% {
+    transform: rotate(-1.25deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.hover:hover {
+  animation-play-state: paused;
+}
+
+.Prajna {
+  width: 10%;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 89%;
+}
+
+.next {
+  position: absolute;
+  cursor: pointer;
+  width: 230px;
+  height: 85px;
+  margin-left: 1250px;
+  margin-top: 750px;
+  padding: 5px 50px 5px 50px;
+}
+
+.finish{
+  position: absolute;
+  cursor: pointer;
+  width: 230px;
+  height: 85px;
+  margin-left: 1250px;
+  margin-top: 750px;
+  padding: 5px 50px 5px 50px;
+
+}
+
+.zoomOut {
+  transition: transform .6s;
+  transform: scale(0);
+}
+
+.scoreLabel {
+  position: absolute;
+  margin-top: 49%;
+}
+
+.points {
+  position: absolute;
+  margin-top: 49%;
+  margin-left: 6.5%;
+}
+
+
+
+.Progress_bar_container{
+  position: absolute;
+  margin-left: 1040px;
+  margin-top: 150px;
+}
+
+.Your_Progress_text{
+  position: absolute;
+  width: 90px;
+  height: 50px;
+  margin-left: -32px;
+  margin-top: -15px;
+}
+
+.grey_progress_dot_1, .grey_progress_dot_2,.grey_progress_dot_3,.grey_progress_dot_4,.grey_progress_dot_5,.grey_progress_dot_6,.grey_progress_dot_7,.grey_progress_dot_8,.grey_progress_dot_9,.grey_progress_dot_10{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+
+}
+
+.grey_progress_dot_1{
+  margin-top: 500px;
+
+}
+
+.grey_progress_dot_2{
+  margin-top: 450px;
+}
+
+.grey_progress_dot_3{
+  margin-top: 400px;
+}
+
+.grey_progress_dot_4{
+  margin-top: 350px;
+
+}
+
+.grey_progress_dot_5{
+  margin-top: 300px;
+
+}
+
+.grey_progress_dot_6{
+  margin-top: 250px;
+
+}
+
+.grey_progress_dot_7{
+  margin-top: 200px;
+
+}
+
+.grey_progress_dot_8{
+  margin-top: 150px;
+
+
+}
+
+.grey_progress_dot_9{
+  margin-top: 100px;
+
+
+}
+
+.grey_progress_dot_10{
+  margin-top: 50px;
+}
+
+
+
+
+/* #start,#game_over{
+  font-family: Arial, Helvetica, sans-serif;
+  color:#ffffff;
+  padding: 20px;
+  position: fixed;
+  top:50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+  height:200px;
+  width:250px;
+  text-align: center;
+
+}
+
+
+#start a, game_over a {
+  border: 3px solid #ffffff;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  display: block;
+  width:200px;
+  text-align: center;
+  font-size: 2em;
+  display: inline-block;
+} */
+/* .base-timer {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.base-timer__svg {
+  transform: scaleX(-1);
+}
+
+.base-timer__circle {
+  fill: none;
+  stroke: none;
+}
+
+.base-timer__path-elapsed {
+  stroke-width: 10px;
+  stroke: grey;
+}
+
+.base-timer__path-remaining {
+  stroke-width: 7px;
+  stroke-linecap: round;
+  transform: rotate(90deg);
+  transform-origin: center;
+  transition: 1s linear all;
+  fill-rule: nonzero;
+  stroke: currentColor;
+}
+
+.base-timer__path-remaining.green {
+  color: rgb(65, 184, 131);
+}
+
+.base-timer__path-remaining.orange {
+  color: orange;
+}
+
+.base-timer__path-remaining.red {
+  color: red;
+}
+
+.base-timer__label {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  font-weight: 700
+} */
