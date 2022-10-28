@@ -2,7 +2,7 @@
 This is the emotional well being game I developed for my school. The same one I referred to on my google form.
 
 
-The folder is called Creative L & L, Creative is the name of my school and L & L stands for 'Life and Living', the subject in which we are taught emotional intelligence and other holisitic matters. Instead of naming our classes 1st Standard, 2nd Standard, we use the name of flowers. Jasmine is the youngest age group and this section of the game has been developed for them, hence the name Jasmine.
+The folder is called Creative L & L, Creative is the name of my school and L & L stands for 'Life and Living', the subject in which we are taught emotional intelligence and other holisitic matters. Instead of naming our classes 1st Standard, 2nd Standard, we use the name of flowers. Jasmine is the youngest age group and this section of the game has been developed for them, hence the name Jasmine. Aster is the next age group where we have 3 cards on screen with 12 emotions to choose from. That has not been developed yet due to external limitations so please don't click on that yet.
 
 The AgeSelectionScreen is the main menu to this game. Over here, you can select your Age from the ranges given. 
 Once that's selected, you'll be taken to the instructions screen where you'll be told how to play the game. You'll start playing the game after you click the start arrow.
